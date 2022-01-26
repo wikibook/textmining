@@ -1,0 +1,17 @@
+name: textmining
+dependencies:
+  - python==3.8
+  - jupyter
+  - notebook
+  - git
+  - numpy
+  - jpype1
+  - tensorflow
+  - pytorch
+  - huggingface:transformers
+  - pip
+  - pip:
+    - nltk
+    - git+https://github.com/sk8erchoi/konlpy
+    - matplotlib
+    - scikit-learn
