@@ -1,6 +1,6 @@
 name: textmining
 dependencies:
-  - python==3.8
+  - python==3.8.12
   - jupyter
   - notebook
   - git
@@ -16,3 +16,10 @@ dependencies:
     - matplotlib
     - scikit-learn
     - pyldavis
+    - textblob
+    - afinn
+    - vaderSentiment
+    - gensim
+    - datasets
+    - sentencepiece
+    - git+https://github.com/SKTBrain/KoBERT.git#egg=kobert_tokenizer&subdirectory=kobert_hf
